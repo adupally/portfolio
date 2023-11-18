@@ -1,0 +1,60 @@
+<div class="contact">
+  <h2>I'm actively seeking a Software Engineering Position and I'm available to join immediately. </h2>
+   <p> Get in touch directly on : <p>
+   <div class="contact-links">
+    <div class="contact-row">
+    <p><strong>Whatsapp : </strong>
+    <a href="https://wa.me/8096429182">8096429182</a></p>
+    <p><strong>linkedin : </strong>
+    <a href="https://www.linkedin.com/in/adupally-thirumal-reddy-37210a237/">adupally-thirumal-reddy-37210a237</a></p>
+  </div>
+    <div class="contact-row">
+    <p><strong>Instagram : </strong>
+    <a href="https://www.instagram.com/reddi_thirumal/?hl=en">reddi_thirumal</a></p>
+    <p><strong>Gmail : </strong>
+    <a href="mailto:thirumalreddy12121@gmail.com">thirumalreddy12121@gmail.com</a></p>
+  </div>
+    <div class="contact-row">
+    <p><strong>Twitter : </strong>
+    <a href="https://twitter.com/AThirumalReddi">AThirumalReddi</a></p>
+  </div>
+    
+  <p>I look forward to connecting with potential employers and discussing how I can contribute to your organization.</p>
+<p id="feedback">I value your opinion! Your feedback is essential in helping me improve and make this website more impressive. Please share your thoughts, suggestions, or any issues you've encountered while browsing my portfolio. Your input is highly appreciated.</p>
+
+   </div>
+   <div class="feedback" *ngIf="submit; else notsubmit">
+    <form (submit)="submitForm()" >
+      <div class="form-group"  >
+        <input type="text" id="input-text" name="name" placeholder="Name" class="input" [(ngModel)]="name" required>
+      </div>
+  
+      <div class="form-group" >
+        <textarea id="custom-textarea" name="feedback" rows="4" cols="80" placeholder="Message" class="input" [(ngModel)]="feedback"  required></textarea>
+      </div>
+  
+      
+      <div class="aboutme">
+        <button type="submit" class="submit" (click)="onSubmit()">Submit</button>
+        <a routerLink="/Home">
+            <p>Go Back Home <img src="../../assets/icons8-right-arrow-30.png" class="arrow-icon"> </p>
+        </a>
+     </div>
+    </form>
+  </div>
+  <ng-template #notsubmit>
+    <button type="button" (click)="onSubmit()">Resubmit feedback</button>
+    <div class="aboutme">
+    <a routerLink="/Home">
+      <p class="contacttoHome">Go Back Home <img src="../../assets/icons8-right-arrow-30.png" class="arrow-icon"> </p>
+      </a>
+    </div>
+
+  </ng-template>
+  
+  
+    
+      
+
+</div>
+

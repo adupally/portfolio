@@ -1,0 +1,24 @@
+
+<div class="Header">
+
+    <img src="../assets/AtrLogo.png" alt="" class="logo" [routerLink]="['Home']">
+    
+    <div class="main">
+        <nav>
+            <ng-container *ngIf="showHomeLink || showLink">
+                <a [routerLink]="['Home']" class="routes">Home</a>
+            </ng-container>
+            <ng-container *ngIf="showProjectsLink">
+                <a [routerLink]="['Projects']" class="routes">Projects</a>
+            </ng-container>
+            <ng-container *ngIf="showAboutLink">
+                <a [routerLink]="['About']" class="routes">About</a>
+            </ng-container>
+            <ng-container *ngIf="showContactLink">
+                <a [routerLink]="['Contact']" class="routes">Contact</a>
+            </ng-container>
+        </nav>
+    </div>
+    
+
+</div>

@@ -1,0 +1,21 @@
+.about{
+  margin: 0rem 0rem 0rem 17rem;
+}
+
+
+
+
+.aboutme a p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+.aboutme a img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+
+  .leftside{
+    color: red;
+  }

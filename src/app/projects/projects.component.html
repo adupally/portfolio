@@ -1,0 +1,32 @@
+<div class="custom-slider">
+  <div class="slider-container" [@slideAnimation]="currentSlide">
+    <div *ngFor="let project of sliderItems; let i = index" class="slider-item">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <div class="languages-used">
+        <strong>Languages Used:</strong>
+        <ul>
+          <li *ngFor="let language of project.languages">{{ language }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slider-controls">
+    <button (click)="prevSlide()"><</button>
+    <span class="slider-indicator">{{ currentSlide + 1 }}/{{ sliderItems.length }}</span>
+    <button (click)="nextSlide()">></button>
+  </div>
+</div>
+
+
+
+
+
+  
+  
+<div class="aboutme">
+    <a routerLink="/About">
+        <p>See More About Me <img src="../../assets/icons8-right-arrow-30.png" class="arrow-icon"> </p>
+    </a>
+ </div>
+<app-footer></app-footer>

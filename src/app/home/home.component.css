@@ -1,0 +1,28 @@
+.home h1{
+  font-family:Blorado, sans-serif;
+    color: #e1e1e1;
+    margin: 2rem 0rem 1.5rem 19rem;
+    letter-spacing: 9px;
+}
+.home p{
+  font-family:Blorado, sans-serif;
+    margin-left: 19rem;
+    color: #e1e1e1;
+    max-width: 60%;
+    word-wrap: break-word;
+    word-spacing: 3px;
+    line-height: 2;
+}
+.aboutme a p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+.aboutme a img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+
+

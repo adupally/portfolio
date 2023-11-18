@@ -1,0 +1,51 @@
+.aboutme a p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+.aboutme a img {
+  
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+
+
+
+  .custom-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slider-container {
+    color: white;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-item {
+    min-width: 100%;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .slider-indicator {
+    margin: 0 10px;
+  }
+  
