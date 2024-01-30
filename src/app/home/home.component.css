@@ -1,13 +1,13 @@
 .home h1{
   font-family:Blorado, sans-serif;
-    color: #e1e1e1;
+    color: 	#fdfdfd ;
     margin: 2rem 0rem 1.5rem 19rem;
     letter-spacing: 9px;
 }
 .home p{
   font-family:Blorado, sans-serif;
     margin-left: 19rem;
-    color: #e1e1e1;
+    color: #fdfdfd;
     max-width: 60%;
     word-wrap: break-word;
     word-spacing: 3px;

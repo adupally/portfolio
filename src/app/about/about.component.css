@@ -1,21 +1,42 @@
-.about{
+.about {
   margin: 0rem 0rem 0rem 17rem;
 }
 
+.leftside {
+  color: grey;
+  display: flex;
+}
 
+.internship,
+.education,
+.skills {
+  width: 30%; /* Adjust the width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Optional: Add some spacing between the divs */
+}
 
-
+/* Optional: Add some styling to make it visually appealing */
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.aboutme{
+    font-family:Blorado, sans-serif;
+    
+}
 .aboutme a p {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-.aboutme a img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
-  }
+  margin-top: 5%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20%;
+  color: #e1e1e1;
+}
 
-  .leftside{
-    color: red;
-  }
+.aboutme a img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
